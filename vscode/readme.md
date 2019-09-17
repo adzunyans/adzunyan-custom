@@ -1,4 +1,4 @@
-# Plugin
+# Plugins
 
 - Beautify
 - Color Picker
