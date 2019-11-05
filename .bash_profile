@@ -12,6 +12,8 @@ fi
 alias g='git'
 alias gs='git status'
 alias gb='git branch'
+alias gl='git log --oneline --graph'
+
 ### Git補完機能
 source ~/.git-completion.bash
 
