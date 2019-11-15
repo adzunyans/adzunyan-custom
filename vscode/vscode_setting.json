@@ -1,12 +1,20 @@
 {
   "explorer.confirmDragAndDrop": false,
+  "explorer.confirmDelete": false,
   "editor.formatOnPaste": true, // ペースト時に自動でフォーマット
   "editor.formatOnSave": true, // ファイル保存時に自動でフォーマット
   "editor.formatOnType": true, // 入力した行を自動でフォーマット
+  "editor.tabSize": 2,
+  "editor.detectIndentation": true,
+  "editor.multiCursorModifier": "ctrlCmd",
   "html.format.contentUnformatted": "pre, code, textarea, title, h1, h2, h3, h4, h5, h6, p", // タグ内の記述はフォーマットしない
   "html.format.extraLiners": "", // head, body, /html タグの前に改行を入れない
   "html.format.unformatted": null, // フレージング・コンテンツ（旧インライン要素のようなタグ）はフォーマットしない
-
+  "colorHelper.pickerForm": "compact",
+  "workbench.startupEditor": "newUntitledFile",
+  "workbench.editor.enablePreview": true,
+  "window.zoomLevel": 0,
+  "git.autofetch": true,
   "files.associations": {
     "*.erb": "erb"
   },
@@ -22,17 +30,21 @@
       "php"
     ]
   },
-  "colorHelper.pickerForm": "compact",
-  "atomKeymap.promptV3Features": true,
-  "editor.multiCursorModifier": "ctrlCmd",
   "[jsonc]": {
-    "editor.defaultFormatter": "HookyQR.beautify"
+    // "editor.defaultFormatter": "HookyQR.beautify",
+    "editor.defaultFormatter": "vscode.json-language-features",
+  },
+  "[json]": {
+    // "editor.defaultFormatter": "HookyQR.beautify",
+    "editor.tabSize": 2,
+    "editor.defaultFormatter": "vscode.json-language-features",
   },
   "[markdown]": {},
-  "workbench.startupEditor": "newUntitledFile",
-  "[json]": {
-    "editor.defaultFormatter": "HookyQR.beautify"
-  },
-  "explorer.confirmDelete": false,
-  "editor.tabSize": 2
+  "workbench.iconTheme": "material-icon-theme",
+  "diffEditor.ignoreTrimWhitespace": false,
+  "workbench.colorTheme": "Netflix Red",
+  "todo-tree.highlights.defaultHighlight": {
+    "foreground": "white",
+    "background": "red"
+  }
 }
