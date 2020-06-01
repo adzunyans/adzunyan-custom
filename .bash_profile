@@ -15,6 +15,7 @@ alias gb='git branch'
 alias gl='git log --oneline --graph'
 
 ### Git補完機能
+# https://github.com/git/git/blob/master/contrib/completion/git-completion.bash
 source ~/.git-completion.bash
 
 alias sourcebp='source ~/.bash_profile'
